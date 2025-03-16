@@ -163,7 +163,7 @@ const Footer = () => {
           </div>
 
           <div className="text-center">
-            Made by <a href=""></a> Swapnil Sontakke © {year} SkillOrbit
+            Made by <a href="https://github.com/swapavan11/SkillOrbit.git">Swapnil Sontakke</a>  © {year} SkillOrbit
           </div>
         </div>
       </div>
