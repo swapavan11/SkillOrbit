@@ -1,0 +1,15 @@
+diff --git a/node_modules/react-super-responsive-table/dist/components/Table.js b/node_modules/react-super-responsive-table/dist/components/Table.js
+index 9276b9e..63b6273 100644
+--- a/node_modules/react-super-responsive-table/dist/components/Table.js
++++ b/node_modules/react-super-responsive-table/dist/components/Table.js
+@@ -51,9 +51,7 @@ var Table = /*#__PURE__*/function (_React$Component) {
+ }(_react["default"].Component);
+ Table.propTypes = {
+   className: _propTypes["default"].string,
+-  forwardedRef: _propTypes["default"].oneOfType([_propTypes["default"].func, _propTypes["default"].shape({
+-    current: _propTypes["default"].instanceOf(global.Element)
+-  })])
++  forwardedRef: _propTypes["default"].string,
+ };
+ Table.defaultProps = {
+   className: undefined,
