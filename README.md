@@ -1,6 +1,6 @@
-# StudyNotion
+# SkillOrbit
 
-StudyNotion is a fully functional ed-tech platform that enables users to create, consume, and rate educational content. The platform aims to provide a seamless and interactive learning experience for students while offering a platform for instructors to showcase their expertise and connect with learners across the globe.
+SkillOrbit is a fully functional ed-tech platform that enables users to create, consume, and rate educational content. The platform aims to provide a seamless and interactive learning experience for students while offering a platform for instructors to showcase their expertise and connect with learners across the globe.
 
 ## Features
 
@@ -13,7 +13,6 @@ StudyNotion is a fully functional ed-tech platform that enables users to create,
   - Course Content: Content pages for individual courses.
   - User Details: Account details page for students.
   - User Edit Details: Account details editing page.
-
 - **Instructor Features:**
 
   - Dashboard: Overview of courses, ratings, and feedback.
@@ -23,7 +22,7 @@ StudyNotion is a fully functional ed-tech platform that enables users to create,
 
 ## Architecture
 
-StudyNotion follows a client-server architecture:
+SkillOrbit follows a client-server architecture:
 
 - **Front-end:** ReactJS, communicates with the back end using RESTful API calls.
 - **Back-end:** NodeJS, ExpressJS, provides APIs for user authentication, course management, etc.
@@ -35,7 +34,7 @@ StudyNotion follows a client-server architecture:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Sarthak2152/StudyNotion.git
+   git clone https://github.com/swapavan11/SkillOrbit.git
    ```
 2. Install dependencies:
    ```sh
@@ -64,4 +63,4 @@ StudyNotion follows a client-server architecture:
 1. User authentication and authorization: Students and instructors can sign up and log in to the platform using their email addresses and password. The platform also supports OTP (One-Time Password) verification and forgot password functionality for added security.
 2. Course management: Instructors can create, read, update, and delete courses, as well as manage course content and media. Students can view and rate courses.
 3. Payment Integration: Students will purchase and enrol on courses by completing the checkout flow that is followed by Razorpay integration for payment handling.
-4. Cloud-based media management: StudyNotion uses Cloudinary, a cloud-based media management service, to store and manage all media content, including images, videos, and documents.
+4. Cloud-based media management: SkillO uses Cloudinary, a cloud-based media management service, to store and manage all media content, including images, videos, and documents.
