@@ -38,7 +38,7 @@ SkillOrbit follows a client-server architecture:
    ```
 2. Install dependencies:
    ```sh
-   cd StudyNotion
+   cd SkillOrbit
    npm install
    cd server
    npm install
